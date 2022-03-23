@@ -1,6 +1,7 @@
 package tests;
 
 import manage.ApplicationManager;
+import model.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -20,8 +21,20 @@ public class Login extends TestBase {
         app.getUser().initLogin();
         app.getUser().fillLoginEmailForm("missira85@gmail.com", "Irinka777$");
         app.getUser().submitLogin();
+        // Thread.sleep(5000);
+        app.getUser().isLoginSuccess();
 
-        //   Assert.assertTrue(app.getUser().isLoginSuccess());
+        Assert.assertTrue(app.getUser().isLoginSuccess());
+
+    }
+
+    @Test
+    public void loginSuccessModel() throws InterruptedException {
+        User user=new User().withEmail("missira85@gmail.com").withPassword("Irinka777$");
+        app.getUser().initLogin();
+        app.getUser().fillLoginEmailForm(user);
+        app.getUser().submitLogin();
+       // Thread.sleep(5000);
         app.getUser().isLoginSuccess();
 
         Assert.assertTrue(app.getUser().isLoginSuccess());
