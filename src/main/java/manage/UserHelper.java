@@ -7,6 +7,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class UserHelper extends HelperBase {
     public UserHelper(WebDriver wd) {
         super(wd);
@@ -40,7 +43,7 @@ public class UserHelper extends HelperBase {
     public boolean isLoginSuccess() {
         WebDriverWait wait = new WebDriverWait(wd, 10);
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("[data-test-id='header-member-menu-button']"))));
-        return  wd.findElement(By.cssSelector("[data-test-id='header-member-menu-button']")).isDisplayed();
+        return wd.findElement(By.cssSelector("[data-test-id='header-member-menu-button']")).isDisplayed();
     }
 
     public void logOut() {
@@ -60,5 +63,25 @@ public class UserHelper extends HelperBase {
         Thread.sleep(5000);
         type(By.name("password"), password);
         click(By.id("login-submit"));
+    }
+
+    public void clickOnAvatar() {
+        click(By.cssSelector("[data-test-id='header-member-menu-button']"));
+    }
+
+    public void openUserProfile() {
+        click(By.cssSelector("[data-test-id = 'header-member-menu-profile']"));//[data-test-id = 'header-member-menu-profile'
+    }
+
+    public void goToTheAtlassianAccount() {
+        click(By.xpath("//a[normalize-space()='Atlassian profile']"));
+        //click(By.cssSelector("[href$='manage-profile']"));
+        List<String> tabs = new ArrayList<>(wd.getWindowHandles());
+        wd.switchTo().window((tabs.get(1)));
+    }
+    public void  returnToTrello(){
+        List<String> tabs = new ArrayList<>(wd.getWindowHandles());
+        wd.close();
+        wd.switchTo().window((tabs.get(0)));
     }
 }

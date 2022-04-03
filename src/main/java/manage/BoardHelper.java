@@ -2,14 +2,11 @@ package manage;
 
 import model.Board;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class BoardHelper extends HelperBase{
+public class BoardHelper extends HelperBase {
 
     public BoardHelper(WebDriver wd) {
         super(wd);
@@ -18,17 +15,16 @@ public class BoardHelper extends HelperBase{
     public void initBoardCreationFromHeader() {
         //click(By.cssSelector("[data-test-id='header-create-menu-button']"));  //p[@class='_1N9LJYg3C9x47Y']
         click(By.cssSelector("._1N9LJYg3C9x47Y"));
-     //   click(By.cssSelector("[aria-label='BoardIcon']"));//button[@data-test-id='header-create-board-button']////p[contains(text(),'A board is made up of cards ordered on lists. Use ')]
         click(By.cssSelector("button[data-test-id='header-create-board-button']"));
     }
 
 
     public void fillBoardCreationForm(Board board) {
-     //   type(By.cssSelector("[data-test-id = 'create-board-title-input']"), board.getTitle()); //
+        //   type(By.cssSelector("[data-test-id = 'create-board-title-input']"), board.getTitle()); //
         type(By.cssSelector("input[type='text']"), board.getTitle());
     }
 
-   public void scrollDownTheForm() {
+    public void scrollDownTheForm() {
 //        Actions action = new Actions(wd);
 //        WebElement container = wd.findElement(By.cssSelector("[data-test-id='header-create-menu-popover']"));
 //        Rectangle rect = container.getRect();
@@ -36,24 +32,56 @@ public class BoardHelper extends HelperBase{
 //        int y= rect.getY()+ rect.getHeight()/2;
 //        action.moveByOffset(x,y).click().perform(); //x=shirina, y=visota
 //
-   } // net etogo metoda na saite trello
+    } // net etogo metoda na saite trello
 
     public void submitBoardCreation() {
-       click(By.cssSelector("[data-test-id='create-board-submit-button']"));  ////button[contains(text(),'Create')]
-        //click(By.cssSelector("._2NEPrwhDnsG_qO._3TTqkG5muwOzqZ._3Ik0JLsERwh6Ui._1Tu9wiuW4Te8Rx"));
-       // click(By.xpath("(//button[contains(text(),'Create')])[1]"));
-       // Thread.sleep(5000);
+        //   click(By.cssSelector("[data-test-id='create-board-submit-button']"));
+        click(By.cssSelector("._2NEPrwhDnsG_qO._3TTqkG5muwOzqZ._3Ik0JLsERwh6Ui._1Tu9wiuW4Te8Rx"));
+
     }
 
     public boolean isCreated() {
 
-            WebDriverWait wait= new WebDriverWait(wd,20);
-            wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("//textarea[@aria-label='To Do']"))));
-            return wd.findElement(By.cssSelector("//textarea[@aria-label='To Do']")).isDisplayed();
-        }
+        WebDriverWait wait = new WebDriverWait(wd, 30);
+        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("._2GFX5xx4d2BRju._2HiZ2xVqGDyu2I"))));
+        return wd.findElement(By.cssSelector("._2GFX5xx4d2BRju._2HiZ2xVqGDyu2I")).isDisplayed();//._2GFX5xx4d2BRju._2HiZ2xVqGDyu2I
+    }
 
     public void returnToHomePAge() {
-                  click(By.cssSelector("._2ft40Nx3NZII2i"));
+        click(By.cssSelector("._2ft40Nx3NZII2i"));
+
+    }
+
+    public int getBoardCount() {
+        return wd.findElements(By.cssSelector(".boards-page-board-section-list-item")).size() - recentlyViewedBoards();
+    }
+
+    public int recentlyViewedBoards() {
+        return wd.findElements(By.xpath("//*[contains(@class,'icon-clock')]/../../..//li")).size();//div[class='all-boards'] div:nth-child(2) div:nth-child(1) div:nth-child(2) ul:nth-child(1)
+
+    }
+
+    public void clickOnTheFirstBoard() {
+        click(By.cssSelector(".board-tile-details"));//board-tile-fade
+
+    }
+
+    public void openSideBoardenu() {
+        click(By.cssSelector(".js-show-sidebar"));
+    }
+
+
+    public void openMore() {
+        click(By.cssSelector(".js-open-more"));
+    }
+
+    public void closeBoard() throws InterruptedException {
+        click(By.cssSelector(".js-close-board"));
+        click(By.cssSelector(".js-confirm"));
+        click(By.cssSelector("[data-test-id='close-board-delete-board-button']"));
+        Thread.sleep(5000);
+        click(By.cssSelector("[data-test-id='close-board-delete-board-confirm-button']"));
+
 
     }
 }

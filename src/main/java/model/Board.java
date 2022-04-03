@@ -1,14 +1,16 @@
 package model;
 
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@ToString
+@Builder
 public class Board {
     String title;
 
-    public Board withTitle(String title) {
-        this.title = title;
-        return this;
-    }
 
-    public String getTitle() {
-        return title;
-    }
 }
