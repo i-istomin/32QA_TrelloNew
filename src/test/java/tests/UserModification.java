@@ -35,5 +35,23 @@ public class UserModification extends TestBase {
         Assert.assertEquals(curUrl,"https://trello.com/");
     }
 
+    @Test
+    public void changeAvatarTest() throws InterruptedException {
+        app.getUser().clickOnAvatar();
+        app.getUser().openUserProfile();
+        app.getUser().goToTheAtlassianAccount();
+        app.getUser().pause(3000);
 
+        Assert.assertTrue(app.getUrl().contains("https://id.atlassian.com/manage-profile"));
+
+        app.getAtlassian().initChangePhoto();
+        app.getAtlassian().uploadPhoto2("/home/i-istomin/TelRan/SYSTEMS/32QA_TrelloNew/src/test/resources/xmas-fire.jpg");
+        //  Assert.assertTrue(app.getAtlassian().isAvatarChanged());
+        app.getUser().returnToTrello();
+
+        Assert.assertTrue(app.getUrl().contains("https://trello.com"));
+
+
+
+    }
 }

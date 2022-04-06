@@ -21,11 +21,23 @@ public class AtlassianHelper extends HelperBase {
     }
 
     public void uploadPhoto() {
-        attachFile(By.cssSelector("#image-input"), new File("/home/i-istomin/TelRan/SYSTEMS/32QA_TrelloNew/src/test/resources/Screenshot_20220228-222931_ToonMe.jpg"));
-
-        waitForElementAndCklick(By.cssSelector(".css-19r5em7"), 10);
+        attachFile(By.cssSelector("#image-input"),
+                new File("/home/i-istomin/TelRan/SYSTEMS/32QA_TrelloNew/src/test/resources/Screenshot_20220228-222931_ToonMe.jpg"));
+        waitForElementAndCklick(By.cssSelector(".css-12eh8h8"), 10);
     }
 
+    public void uploadPhoto2(String image) throws InterruptedException {
+        wd.findElement(By.cssSelector("#image-input")).sendKeys(image);
+        Thread.sleep(2000);
+        click(By.cssSelector(".css-12eh8h8"));
+    }
+
+    public void initChangePhoto() {
+        Actions actions = new Actions(wd);
+        actions.moveToElement(wd.findElement(By.cssSelector("[data-test-selector='profile-avatar']"))).click().perform();
+        pause(3000);
+        click(By.xpath("//*[@role='menuitem'][1]"));
+    }
 
 
 }
