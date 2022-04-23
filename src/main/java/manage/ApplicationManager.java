@@ -4,17 +4,21 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
-    WebDriver wd;
+    EventFiringWebDriver wd;// WebDriver wd;
     UserHelper user;   //pravoy klavishey generate construct webdriver
     BoardHelper board;
     CardHelper card;
     ListHelper list;
     AtlassianHelper atlassian;
+    Logger logger= LoggerFactory.getLogger(ApplicationManager.class);
 
 
 
@@ -22,8 +26,9 @@ public class ApplicationManager {
 
         ChromeOptions chromeOptions = new ChromeOptions();
         WebDriverManager.chromedriver().setup();
-        wd = new ChromeDriver();
+        wd=new EventFiringWebDriver(new ChromeDriver());// wd = new ChromeDriver();
         System.setProperty("webdriver.chrome.driver", "/home/i-istomin/TelRan/SYSTEMS/Qa32_Trello/chromedriver");
+        logger.info("Test starts");
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wd.navigate().to("https://trello.com/");
@@ -34,6 +39,8 @@ public class ApplicationManager {
         list=new ListHelper(wd);
         atlassian=new AtlassianHelper(wd);
         user.login("missira85@gmail.com", "Irinka777$");//obrashaemsia k helperu
+
+        wd.register(new MyListener());
     }
 
     public BoardHelper getBoard() {

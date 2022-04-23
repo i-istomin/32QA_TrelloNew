@@ -38,12 +38,13 @@ public class Login extends TestBase {
                 .password("Irinka777$")
                 .build();
 
+        logger.info("Test Login Positive 1"+user.getEmail()+ " "+user.getPassword());
         app.getUser().initLogin();
         app.getUser().fillLoginEmailForm(user);
         app.getUser().submitLogin();
        // Thread.sleep(5000);
         app.getUser().isLoginSuccess();
-
+logger.info("Logged---");
         Assert.assertTrue(app.getUser().isLoginSuccess());
 
     }

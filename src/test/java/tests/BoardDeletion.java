@@ -1,10 +1,14 @@
 package tests;
 
+import model.User;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
 public class BoardDeletion extends TestBase {
+
+
 
     @Test
     public void boardDeletion() throws InterruptedException {

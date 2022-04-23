@@ -1,0 +1,10 @@
+19:28:33  DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 19:38:32 10/04/2022 IDT)
+19:28:33  DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 18:38:32 11/04/2022 IDT)
+19:28:33  INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+19:28:33  DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+19:28:33  INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /home/i-istomin/.cache/selenium/chromedriver/linux64/96.0.4664.45/chromedriver
+19:28:33  INFO  manage.ApplicationManager - Test starts
+19:28:41  INFO  tests.TestBase - Start test-->>loginSuccessModel
+19:28:49  INFO  tests.TestBase - Test Login Positive 1missira85@gmail.com Irinka777$
+19:29:03  INFO  tests.TestBase - Logged---
+19:29:03  INFO  tests.TestBase - ******************************************************************

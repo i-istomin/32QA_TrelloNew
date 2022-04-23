@@ -1,11 +1,15 @@
 package tests;
 
 import model.Board;
+import model.User;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import tests.TestBase;
 
 public class BoardCreation extends TestBase {
+
+
 
     @Test
     public void boardCreation1() throws InterruptedException {
@@ -16,6 +20,7 @@ public class BoardCreation extends TestBase {
                 .builder()
                 .title("TestQa32" + index)
                 .build();
+        logger.info(("Test boradcreation 1" + board.getTitle()));
         int boardCountBeforeCreation = app.getBoard().getBoardCount(); //metod kot-y vicheslit kol-vo dosok pered tem kak mi sozdali novuyu
         app.getBoard().initBoardCreationFromHeader();
         app.getBoard().fillBoardCreationForm(board);
@@ -26,7 +31,7 @@ public class BoardCreation extends TestBase {
         app.getBoard().returnToHomePAge();
 
         int boardCountAfterCreation = app.getBoard().getBoardCount();
-
+        logger.info("Board is created");
         Assert.assertEquals(boardCountAfterCreation, boardCountBeforeCreation + 1);
 
 
