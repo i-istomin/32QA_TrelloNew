@@ -1,0 +1,103 @@
+09:05:06  INFO  manage.ApplicationManager - All tests start in ChromeDriver
+09:05:06  INFO  manage.ApplicationManager - Test starts
+09:05:16  INFO  tests.TestBase - Start test-->>boardCreation2
+09:05:16  INFO  tests.TestBase - Test boradcreation 2TestQa32316
+09:05:16  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._1N9LJYg3C9x47Y
+09:05:22  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._1N9LJYg3C9x47Y<---- was found
+09:05:22  INFO  manage.MyListener - The element with locator---->By.cssSelector: button[data-test-id='header-create-board-button']
+09:05:22  INFO  manage.MyListener - The element with locator---->By.cssSelector: button[data-test-id='header-create-board-button']<---- was found
+09:05:22  INFO  manage.MyListener - The element with locator---->By.cssSelector: input[type='text']
+09:05:22  INFO  manage.MyListener - The element with locator---->By.cssSelector: input[type='text']<---- was found
+09:05:24  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2NEPrwhDnsG_qO._3TTqkG5muwOzqZ._3Ik0JLsERwh6Ui._1Tu9wiuW4Te8Rx
+09:05:24  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2NEPrwhDnsG_qO._3TTqkG5muwOzqZ._3Ik0JLsERwh6Ui._1Tu9wiuW4Te8Rx<---- was found
+09:05:25  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2GFX5xx4d2BRju._2HiZ2xVqGDyu2I
+09:05:25  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2GFX5xx4d2BRju._2HiZ2xVqGDyu2I<---- was found
+09:05:25  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2GFX5xx4d2BRju._2HiZ2xVqGDyu2I
+09:05:25  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2GFX5xx4d2BRju._2HiZ2xVqGDyu2I<---- was found
+09:05:25  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2GFX5xx4d2BRju._2HiZ2xVqGDyu2I
+09:05:25  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2GFX5xx4d2BRju._2HiZ2xVqGDyu2I<---- was found
+09:05:25  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2GFX5xx4d2BRju._2HiZ2xVqGDyu2I
+09:05:25  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2GFX5xx4d2BRju._2HiZ2xVqGDyu2I<---- was found
+09:05:25  INFO  tests.TestBase - ******************************************************************
+09:05:25  INFO  tests.TestBase - Start test-->>boardCreation3
+09:05:25  INFO  tests.TestBase - Test boradcreation 3test1
+09:05:25  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+09:05:25  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+09:05:25  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+09:05:35  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+09:05:35  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._1N9LJYg3C9x47Y
+09:05:35  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._1N9LJYg3C9x47Y<---- was found
+09:05:35  INFO  manage.MyListener - The element with locator---->By.cssSelector: button[data-test-id='header-create-board-button']
+09:05:35  INFO  manage.MyListener - The element with locator---->By.cssSelector: button[data-test-id='header-create-board-button']<---- was found
+09:05:37  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2NEPrwhDnsG_qO._3TTqkG5muwOzqZ._3Ik0JLsERwh6Ui._1Tu9wiuW4Te8Rx
+09:05:37  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2NEPrwhDnsG_qO._3TTqkG5muwOzqZ._3Ik0JLsERwh6Ui._1Tu9wiuW4Te8Rx<---- was found
+09:05:40  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2ft40Nx3NZII2i
+09:05:40  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2ft40Nx3NZII2i<---- was found
+09:05:40  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+09:05:40  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+09:05:40  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+09:05:40  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+09:05:40  INFO  tests.TestBase - Board is created
+09:05:40  INFO  tests.TestBase - ******************************************************************
+09:05:40  INFO  tests.TestBase - Start test-->>boardCreation3
+09:05:40  INFO  tests.TestBase - Test boradcreation 3test2
+09:05:40  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+09:05:40  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+09:05:40  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+09:05:40  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+09:05:40  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._1N9LJYg3C9x47Y
+09:05:40  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._1N9LJYg3C9x47Y<---- was found
+09:05:40  INFO  manage.MyListener - The element with locator---->By.cssSelector: button[data-test-id='header-create-board-button']
+09:05:41  INFO  manage.MyListener - The element with locator---->By.cssSelector: button[data-test-id='header-create-board-button']<---- was found
+09:05:43  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2NEPrwhDnsG_qO._3TTqkG5muwOzqZ._3Ik0JLsERwh6Ui._1Tu9wiuW4Te8Rx
+09:05:43  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2NEPrwhDnsG_qO._3TTqkG5muwOzqZ._3Ik0JLsERwh6Ui._1Tu9wiuW4Te8Rx<---- was found
+09:05:45  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2ft40Nx3NZII2i
+09:05:45  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2ft40Nx3NZII2i<---- was found
+09:05:45  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+09:05:45  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+09:05:45  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+09:05:45  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+09:05:45  INFO  tests.TestBase - Board is created
+09:05:45  INFO  tests.TestBase - ******************************************************************
+09:05:45  INFO  tests.TestBase - Start test-->>boardCreation3
+09:05:45  INFO  tests.TestBase - Test boradcreation 3test3
+09:05:45  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+09:05:45  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+09:05:45  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+09:05:45  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+09:05:45  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._1N9LJYg3C9x47Y
+09:05:45  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._1N9LJYg3C9x47Y<---- was found
+09:05:45  INFO  manage.MyListener - The element with locator---->By.cssSelector: button[data-test-id='header-create-board-button']
+09:05:45  INFO  manage.MyListener - The element with locator---->By.cssSelector: button[data-test-id='header-create-board-button']<---- was found
+09:05:48  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2NEPrwhDnsG_qO._3TTqkG5muwOzqZ._3Ik0JLsERwh6Ui._1Tu9wiuW4Te8Rx
+09:05:48  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2NEPrwhDnsG_qO._3TTqkG5muwOzqZ._3Ik0JLsERwh6Ui._1Tu9wiuW4Te8Rx<---- was found
+09:05:50  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2ft40Nx3NZII2i
+09:05:50  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2ft40Nx3NZII2i<---- was found
+09:05:50  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+09:05:50  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+09:05:50  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+09:05:50  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+09:05:50  INFO  tests.TestBase - Board is created
+09:05:50  INFO  tests.TestBase - ******************************************************************
+09:05:50  INFO  tests.TestBase - Start test-->>boardCreation4
+09:05:50  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+09:05:50  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+09:05:50  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+09:05:50  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+09:05:50  INFO  tests.TestBase - Test boardcreation 1testQA32
+09:05:50  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._1N9LJYg3C9x47Y
+09:05:50  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._1N9LJYg3C9x47Y<---- was found
+09:05:51  INFO  manage.MyListener - The element with locator---->By.cssSelector: button[data-test-id='header-create-board-button']
+09:05:51  INFO  manage.MyListener - The element with locator---->By.cssSelector: button[data-test-id='header-create-board-button']<---- was found
+09:05:51  INFO  manage.MyListener - The element with locator---->By.cssSelector: input[type='text']
+09:05:51  INFO  manage.MyListener - The element with locator---->By.cssSelector: input[type='text']<---- was found
+09:05:53  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2NEPrwhDnsG_qO._3TTqkG5muwOzqZ._3Ik0JLsERwh6Ui._1Tu9wiuW4Te8Rx
+09:05:53  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2NEPrwhDnsG_qO._3TTqkG5muwOzqZ._3Ik0JLsERwh6Ui._1Tu9wiuW4Te8Rx<---- was found
+09:05:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2ft40Nx3NZII2i
+09:05:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2ft40Nx3NZII2i<---- was found
+09:05:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+09:05:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+09:05:55  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+09:05:55  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+09:05:55  INFO  tests.TestBase - Board is created
+09:05:55  INFO  tests.TestBase - ******************************************************************

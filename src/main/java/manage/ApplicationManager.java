@@ -4,6 +4,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,15 +20,27 @@ public class ApplicationManager {
     CardHelper card;
     ListHelper list;
     AtlassianHelper atlassian;
-    Logger logger= LoggerFactory.getLogger(ApplicationManager.class);
+    Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
+    String browser;
 
 
+    public ApplicationManager(String browser) {
+        this.browser = browser;
+    }
 
     public void init() throws InterruptedException {//zabiraem metod init is tesbase
+        if (browser.equals(BrowserType.CHROME)) {
+            wd = new EventFiringWebDriver(new ChromeDriver());
+            logger.info("All tests start in ChromeDriver");
 
-        ChromeOptions chromeOptions = new ChromeOptions();
-        WebDriverManager.chromedriver().setup();
-        wd=new EventFiringWebDriver(new ChromeDriver());// wd = new ChromeDriver();
+        } else if (browser.equals(BrowserType.FIREFOX)) {
+            wd = new EventFiringWebDriver(new FirefoxDriver());
+            logger.info("All tests start in FirefoxDriver");
+        }
+
+        //  ChromeOptions chromeOptions = new ChromeOptions();
+        //   WebDriverManager.chromedriver().setup();
+        //  wd=new EventFiringWebDriver(new ChromeDriver());// wd = new ChromeDriver();
         System.setProperty("webdriver.chrome.driver", "/home/i-istomin/TelRan/SYSTEMS/Qa32_Trello/chromedriver");
         logger.info("Test starts");
         wd.manage().window().maximize();
@@ -34,10 +48,10 @@ public class ApplicationManager {
         wd.navigate().to("https://trello.com/");
 
         user = new UserHelper(wd);
-        board=new BoardHelper(wd);
-        card=new CardHelper(wd);
-        list=new ListHelper(wd);
-        atlassian=new AtlassianHelper(wd);
+        board = new BoardHelper(wd);
+        card = new CardHelper(wd);
+        list = new ListHelper(wd);
+        atlassian = new AtlassianHelper(wd);
         user.login("missira85@gmail.com", "Irinka777$");//obrashaemsia k helperu
 
         wd.register(new MyListener());
@@ -49,17 +63,18 @@ public class ApplicationManager {
 
     public void stop() {
         //wd.close();
-     //   wd.quit();
+        //   wd.quit();
     }
 
     public UserHelper getUser() {
         return user;
     }
-    public CardHelper getCard(){
+
+    public CardHelper getCard() {
         return card;
     }
 
-    public ListHelper getList(){
+    public ListHelper getList() {
         return list;
     }
 

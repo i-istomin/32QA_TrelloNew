@@ -1,0 +1,3 @@
+19:39:07  INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+19:39:07  INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /home/i-istomin/.cache/selenium/chromedriver/linux64/96.0.4664.45/chromedriver
+19:39:08  INFO  manage.ApplicationManager - Test starts

@@ -1,0 +1,172 @@
+15:49:36  INFO  manage.ApplicationManager - All tests start in ChromeDriver
+15:49:36  INFO  manage.ApplicationManager - Test starts
+15:49:45  INFO  tests.TestBase - Start test-->>boardCreation2
+15:49:45  INFO  tests.TestBase - Test boradcreation 2TestQa322985
+15:49:45  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='header-create-menu-button']
+15:49:51  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='header-create-menu-button']<---- was found
+15:49:51  INFO  manage.MyListener - The element with locator---->By.cssSelector: [aria-label='BoardIcon']
+15:49:51  INFO  manage.MyListener - The element with locator---->By.cssSelector: [aria-label='BoardIcon']<---- was found
+15:49:52  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id = 'create-board-title-input']
+15:50:02  INFO  manage.MyListener - We have a 'throwable' element---->no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id = 'create-board-title-input']"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1034-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.2Vp02t}, goog:chromeOptions: {debuggerAddress: localhost:36501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a16c1e5ee67e3ec719b10d7eea12c162
+*** Element info: {Using=css selector, value=[data-test-id = 'create-board-title-input']}
+15:50:02  INFO  manage.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id = 'create-board-title-input']"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1034-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.2Vp02t}, goog:chromeOptions: {debuggerAddress: localhost:36501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a16c1e5ee67e3ec719b10d7eea12c162
+*** Element info: {Using=css selector, value=[data-test-id = 'create-board-title-input']}
+15:50:02  INFO  tests.TestBase - ******************************************************************
+15:50:02  INFO  tests.TestBase - Start test-->>boardCreation3
+15:50:02  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+15:50:02  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+15:50:02  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+15:50:12  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+15:50:12  INFO  tests.TestBase - Test boradcreation 3test1
+15:50:12  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='header-create-menu-button']
+15:50:12  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='header-create-menu-button']<---- was found
+15:50:12  INFO  manage.MyListener - The element with locator---->By.cssSelector: [aria-label='BoardIcon']
+15:50:12  INFO  manage.MyListener - The element with locator---->By.cssSelector: [aria-label='BoardIcon']<---- was found
+15:50:12  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id = 'create-board-title-input']
+15:50:22  INFO  manage.MyListener - We have a 'throwable' element---->no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id = 'create-board-title-input']"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1034-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.2Vp02t}, goog:chromeOptions: {debuggerAddress: localhost:36501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a16c1e5ee67e3ec719b10d7eea12c162
+*** Element info: {Using=css selector, value=[data-test-id = 'create-board-title-input']}
+15:50:22  INFO  manage.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id = 'create-board-title-input']"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1034-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.2Vp02t}, goog:chromeOptions: {debuggerAddress: localhost:36501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a16c1e5ee67e3ec719b10d7eea12c162
+*** Element info: {Using=css selector, value=[data-test-id = 'create-board-title-input']}
+15:50:22  INFO  tests.TestBase - ******************************************************************
+15:50:22  INFO  tests.TestBase - Start test-->>boardCreation3
+15:50:22  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+15:50:22  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+15:50:22  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+15:50:32  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+15:50:32  INFO  tests.TestBase - Test boradcreation 3test2
+15:50:32  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='header-create-menu-button']
+15:50:32  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='header-create-menu-button']<---- was found
+15:50:33  INFO  manage.MyListener - The element with locator---->By.cssSelector: [aria-label='BoardIcon']
+15:50:33  INFO  manage.MyListener - The element with locator---->By.cssSelector: [aria-label='BoardIcon']<---- was found
+15:50:33  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id = 'create-board-title-input']
+15:50:43  INFO  manage.MyListener - We have a 'throwable' element---->no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id = 'create-board-title-input']"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1034-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.2Vp02t}, goog:chromeOptions: {debuggerAddress: localhost:36501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a16c1e5ee67e3ec719b10d7eea12c162
+*** Element info: {Using=css selector, value=[data-test-id = 'create-board-title-input']}
+15:50:43  INFO  manage.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id = 'create-board-title-input']"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1034-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.2Vp02t}, goog:chromeOptions: {debuggerAddress: localhost:36501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a16c1e5ee67e3ec719b10d7eea12c162
+*** Element info: {Using=css selector, value=[data-test-id = 'create-board-title-input']}
+15:50:43  INFO  tests.TestBase - ******************************************************************
+15:50:43  INFO  tests.TestBase - Start test-->>boardCreation3
+15:50:43  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+15:50:43  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+15:50:43  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+15:50:53  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+15:50:53  INFO  tests.TestBase - Test boradcreation 3test3
+15:50:53  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='header-create-menu-button']
+15:50:53  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='header-create-menu-button']<---- was found
+15:50:53  INFO  manage.MyListener - The element with locator---->By.cssSelector: [aria-label='BoardIcon']
+15:50:53  INFO  manage.MyListener - The element with locator---->By.cssSelector: [aria-label='BoardIcon']<---- was found
+15:50:53  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id = 'create-board-title-input']
+15:51:03  INFO  manage.MyListener - We have a 'throwable' element---->no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id = 'create-board-title-input']"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1034-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.2Vp02t}, goog:chromeOptions: {debuggerAddress: localhost:36501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a16c1e5ee67e3ec719b10d7eea12c162
+*** Element info: {Using=css selector, value=[data-test-id = 'create-board-title-input']}
+15:51:03  INFO  manage.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id = 'create-board-title-input']"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1034-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.2Vp02t}, goog:chromeOptions: {debuggerAddress: localhost:36501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a16c1e5ee67e3ec719b10d7eea12c162
+*** Element info: {Using=css selector, value=[data-test-id = 'create-board-title-input']}
+15:51:03  INFO  tests.TestBase - ******************************************************************
+15:51:03  INFO  tests.TestBase - Start test-->>boardCreation4
+15:51:03  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+15:51:03  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+15:51:03  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+15:51:13  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+15:51:13  INFO  tests.TestBase - Test boardcreation 4testQA32
+15:51:13  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='header-create-menu-button']
+15:51:13  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='header-create-menu-button']<---- was found
+15:51:14  INFO  manage.MyListener - The element with locator---->By.cssSelector: [aria-label='BoardIcon']
+15:51:14  INFO  manage.MyListener - The element with locator---->By.cssSelector: [aria-label='BoardIcon']<---- was found
+15:51:14  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id = 'create-board-title-input']
+15:51:24  INFO  manage.MyListener - We have a 'throwable' element---->no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id = 'create-board-title-input']"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1034-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.2Vp02t}, goog:chromeOptions: {debuggerAddress: localhost:36501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a16c1e5ee67e3ec719b10d7eea12c162
+*** Element info: {Using=css selector, value=[data-test-id = 'create-board-title-input']}
+15:51:24  INFO  manage.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id = 'create-board-title-input']"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1034-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.2Vp02t}, goog:chromeOptions: {debuggerAddress: localhost:36501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a16c1e5ee67e3ec719b10d7eea12c162
+*** Element info: {Using=css selector, value=[data-test-id = 'create-board-title-input']}
+15:51:24  INFO  tests.TestBase - ******************************************************************
+15:51:24  INFO  tests.TestBase - Start test-->>boardCreation5
+15:51:24  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+15:51:24  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+15:51:24  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+15:51:28  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+15:51:28  INFO  tests.TestBase - Test boardcreation 5testQA32
+15:51:28  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='header-create-menu-button']
+15:51:28  INFO  manage.MyListener - We have a 'throwable' element---->chrome not reachable
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1034-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.2Vp02t}, goog:chromeOptions: {debuggerAddress: localhost:36501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a16c1e5ee67e3ec719b10d7eea12c162
+*** Element info: {Using=css selector, value=[data-test-id='header-create-menu-button']}
+15:51:28  INFO  manage.MyListener - org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1034-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.2Vp02t}, goog:chromeOptions: {debuggerAddress: localhost:36501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a16c1e5ee67e3ec719b10d7eea12c162
+*** Element info: {Using=css selector, value=[data-test-id='header-create-menu-button']}
+15:51:28  INFO  tests.TestBase - ******************************************************************

@@ -1,0 +1,75 @@
+19:43:23  INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+19:43:23  INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /home/i-istomin/.cache/selenium/chromedriver/linux64/96.0.4664.45/chromedriver
+19:43:23  INFO  manage.ApplicationManager - Test starts
+19:43:31  INFO  tests.TestBase - Start test-->>boardCreation3
+19:43:31  INFO  tests.TestBase - Test boradcreation 1test1
+19:43:31  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+19:43:36  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+19:43:36  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+19:43:47  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+19:43:47  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._1N9LJYg3C9x47Y
+19:43:47  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._1N9LJYg3C9x47Y<---- was found
+19:43:47  INFO  manage.MyListener - The element with locator---->By.cssSelector: button[data-test-id='header-create-board-button']
+19:43:47  INFO  manage.MyListener - The element with locator---->By.cssSelector: button[data-test-id='header-create-board-button']<---- was found
+19:43:49  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2NEPrwhDnsG_qO._3TTqkG5muwOzqZ._3Ik0JLsERwh6Ui._1Tu9wiuW4Te8Rx
+19:43:49  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2NEPrwhDnsG_qO._3TTqkG5muwOzqZ._3Ik0JLsERwh6Ui._1Tu9wiuW4Te8Rx<---- was found
+19:43:51  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2ft40Nx3NZII2i
+19:43:51  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._2ft40Nx3NZII2i<---- was found
+19:43:51  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+19:43:52  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+19:43:52  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+19:44:02  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+19:44:02  INFO  tests.TestBase - Board is created
+19:44:02  INFO  tests.TestBase - ******************************************************************
+19:44:02  INFO  tests.TestBase - Start test-->>boardCreation3
+19:44:02  INFO  tests.TestBase - Test boradcreation 1test2
+19:44:02  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+19:44:02  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+19:44:02  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+19:44:12  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+19:44:12  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._1N9LJYg3C9x47Y
+19:44:22  INFO  manage.MyListener - We have a 'throwable' element---->no such element: Unable to locate element: {"method":"css selector","selector":"._1N9LJYg3C9x47Y"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1033-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.gM5B7S}, goog:chromeOptions: {debuggerAddress: localhost:35111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59ac0a893e99c130a16d3b844a2dc2a5
+*** Element info: {Using=css selector, value=._1N9LJYg3C9x47Y}
+19:44:22  INFO  manage.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"._1N9LJYg3C9x47Y"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1033-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.gM5B7S}, goog:chromeOptions: {debuggerAddress: localhost:35111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59ac0a893e99c130a16d3b844a2dc2a5
+*** Element info: {Using=css selector, value=._1N9LJYg3C9x47Y}
+19:44:22  INFO  tests.TestBase - ******************************************************************
+19:44:22  INFO  tests.TestBase - Start test-->>boardCreation3
+19:44:22  INFO  tests.TestBase - Test boradcreation 1test3
+19:44:22  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+19:44:22  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+19:44:22  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+19:44:32  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+19:44:32  INFO  manage.MyListener - The element with locator---->By.cssSelector: ._1N9LJYg3C9x47Y
+19:44:42  INFO  manage.MyListener - We have a 'throwable' element---->no such element: Unable to locate element: {"method":"css selector","selector":"._1N9LJYg3C9x47Y"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1033-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.gM5B7S}, goog:chromeOptions: {debuggerAddress: localhost:35111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59ac0a893e99c130a16d3b844a2dc2a5
+*** Element info: {Using=css selector, value=._1N9LJYg3C9x47Y}
+19:44:42  INFO  manage.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"._1N9LJYg3C9x47Y"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1033-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.gM5B7S}, goog:chromeOptions: {debuggerAddress: localhost:35111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59ac0a893e99c130a16d3b844a2dc2a5
+*** Element info: {Using=css selector, value=._1N9LJYg3C9x47Y}
+19:44:42  INFO  tests.TestBase - ******************************************************************

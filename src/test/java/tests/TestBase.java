@@ -5,6 +5,7 @@ import manage.ApplicationManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.BrowserType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterMethod;
@@ -23,7 +24,8 @@ public class TestBase {
     // protected static ApplicationManager app = new ApplicationManager();// vizvali obyect
     //zabiram webdriver i perenosim v applicationmaneager
 
-    protected static ApplicationManager app = new ApplicationManager();
+
+    protected static ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
     @BeforeSuite// izmenili beforemethod,esto metoda na suite

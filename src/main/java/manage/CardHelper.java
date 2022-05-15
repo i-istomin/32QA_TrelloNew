@@ -19,6 +19,7 @@ public class CardHelper extends HelperBase {
         if (card.getColor()!= null) {
             openCardMenu();
             selectLable();
+            pause(500);
             click(By.cssSelector("[data-color=" + card.getColor() + "]"));
 //vibrali zvet i zamenili zvet na tot kot-y ukazan v modeli (cadcreaion)
         }

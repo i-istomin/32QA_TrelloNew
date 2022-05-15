@@ -1,0 +1,26 @@
+09:26:12  INFO  manage.ApplicationManager - All tests start in ChromeDriver
+09:26:12  INFO  manage.ApplicationManager - Test starts
+09:26:21  INFO  tests.TestBase - Start test-->>boardDeletion
+09:26:21  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+09:26:27  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+09:26:27  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+09:26:37  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+09:26:37  INFO  manage.MyListener - The element with locator---->By.cssSelector: .board-tile-details
+09:26:37  INFO  manage.MyListener - The element with locator---->By.cssSelector: .board-tile-details<---- was found
+09:26:37  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-show-sidebar
+09:26:38  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-show-sidebar<---- was found
+09:26:38  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-open-more
+09:26:38  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-open-more<---- was found
+09:26:38  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-close-board
+09:26:38  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-close-board<---- was found
+09:26:38  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-confirm
+09:26:38  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-confirm<---- was found
+09:26:38  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='close-board-delete-board-button']
+09:26:39  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='close-board-delete-board-button']<---- was found
+09:26:44  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='close-board-delete-board-confirm-button']
+09:26:44  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='close-board-delete-board-confirm-button']<---- was found
+09:26:44  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item
+09:26:45  INFO  manage.MyListener - The element with locator---->By.cssSelector: .boards-page-board-section-list-item<---- was found
+09:26:45  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+09:26:55  INFO  manage.MyListener - The element with locator---->By.xpath: //*[contains(@class,'icon-clock')]/../../..//li<---- was found
+09:26:55  INFO  tests.TestBase - ******************************************************************

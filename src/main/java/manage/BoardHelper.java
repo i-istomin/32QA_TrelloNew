@@ -13,17 +13,25 @@ public class BoardHelper extends HelperBase {
     }
 
     public void initBoardCreationFromHeader() {
-        //click(By.cssSelector("[data-test-id='header-create-menu-button']"));  //p[@class='_1N9LJYg3C9x47Y']
-        click(By.cssSelector("._1N9LJYg3C9x47Y"));
-        click(By.cssSelector("button[data-test-id='header-create-board-button']"));
+          // click(By.cssSelector("._1N9LJYg3C9x47Y"));
+       // click(By.cssSelector("button[data-test-id='header-create-board-button']"));
+        click(By.cssSelector("[data-test-id='header-create-menu-button']"));
+       // pause(500);
+        click(By.cssSelector("[aria-label='BoardIcon']"));
     }
 
 
     public void fillBoardCreationForm(Board board) {
-        //   type(By.cssSelector("[data-test-id = 'create-board-title-input']"), board.getTitle()); //
-        type(By.cssSelector("input[type='text']"), board.getTitle());
+       type(By.cssSelector("input[type='text']"), board.getTitle());
+        //type(By.cssSelector("[data-test-id = 'create-board-title-input']"), board.getTitle());
+
     }
 
+    public void fillBoardCreationForm(String boardName){
+      // type(By.cssSelector("input[type='text']"), boardName());
+        type(By.cssSelector("[data-test-id = 'create-board-title-input']"), boardName);
+
+    }
     public void scrollDownTheForm() {
 //        Actions action = new Actions(wd);
 //        WebElement container = wd.findElement(By.cssSelector("[data-test-id='header-create-menu-popover']"));
@@ -35,8 +43,8 @@ public class BoardHelper extends HelperBase {
     } // net etogo metoda na saite trello
 
     public void submitBoardCreation() {
-        //   click(By.cssSelector("[data-test-id='create-board-submit-button']"));
-        click(By.cssSelector("._2NEPrwhDnsG_qO._3TTqkG5muwOzqZ._3Ik0JLsERwh6Ui._1Tu9wiuW4Te8Rx"));
+       click(By.cssSelector("[data-test-id='create-board-submit-button']"));
+       // click(By.cssSelector("._2NEPrwhDnsG_qO._3TTqkG5muwOzqZ._3Ik0JLsERwh6Ui._1Tu9wiuW4Te8Rx"));
 
     }
 
@@ -47,7 +55,7 @@ public class BoardHelper extends HelperBase {
         return wd.findElement(By.cssSelector("._2GFX5xx4d2BRju._2HiZ2xVqGDyu2I")).isDisplayed();//._2GFX5xx4d2BRju._2HiZ2xVqGDyu2I
     }
 
-    public void returnToHomePAge() {
+    public void returnToHomePage() {
         click(By.cssSelector("._2ft40Nx3NZII2i"));
 
     }
@@ -65,6 +73,8 @@ public class BoardHelper extends HelperBase {
         click(By.cssSelector(".board-tile-details"));//board-tile-fade
 
     }
+
+
 
     public void openSideBoardenu() {
         click(By.cssSelector(".js-show-sidebar"));
