@@ -1,0 +1,36 @@
+18:36:41  INFO  manage.ApplicationManager - All tests start in ChromeDriver
+18:36:41  INFO  manage.ApplicationManager - Test starts
+18:36:49  INFO  tests.TestBase - Start test-->>cardCreation
+18:36:49  INFO  manage.MyListener - The element with locator---->By.cssSelector: .board-tile-details
+18:36:54  INFO  manage.MyListener - The element with locator---->By.cssSelector: .board-tile-details<---- was found
+18:36:54  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-add-list
+18:36:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-add-list<---- was found
+18:36:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: .list-name-input
+18:36:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: .list-name-input<---- was found
+18:36:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: input[value='Add list']
+18:36:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: input[value='Add list']<---- was found
+18:36:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-add-a-card
+18:36:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-add-a-card<---- was found
+18:36:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-card-title
+18:36:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-card-title<---- was found
+18:36:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-cc-menu
+18:36:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-cc-menu<---- was found
+18:36:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-label-selector
+18:36:55  INFO  manage.MyListener - The element with locator---->By.cssSelector: .js-label-selector<---- was found
+18:36:55  INFO  manage.MyListener - We have a 'throwable' element---->stale element reference: element is not attached to the page document
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1036-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.CSg0ee}, goog:chromeOptions: {debuggerAddress: localhost:46867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ae14a4ca042ea5f72c7a86fdd149157
+18:36:55  INFO  manage.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1036-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.CSg0ee}, goog:chromeOptions: {debuggerAddress: localhost:46867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ae14a4ca042ea5f72c7a86fdd149157
+18:36:55  INFO  tests.TestBase - ******************************************************************

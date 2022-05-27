@@ -28,7 +28,7 @@ public class TestBase {
     protected static ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
-    @BeforeSuite// izmenili beforemethod,esto metoda na suite
+    @BeforeSuite(alwaysRun = true)// izmenili beforemethod,esto metoda na suite
     public void setAp() throws InterruptedException {// vmesto init pishem setup//public void init() { //browser+https
         app.init();//obrashaemsia k metodu kotoriy zahodit v browser
     }
@@ -38,7 +38,7 @@ public class TestBase {
         logger.info("Start test-->>" + method.getName());
     }
 
-    @AfterSuite
+    @AfterSuite(alwaysRun = true)
     public void tearDown() {
         app.stop();
     }

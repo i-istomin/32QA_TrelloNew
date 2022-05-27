@@ -1,0 +1,28 @@
+19:53:38  INFO  manage.ApplicationManager - All tests start in ChromeDriver
+19:53:38  INFO  manage.ApplicationManager - Test starts
+19:53:46  INFO  tests.TestBase - Start test-->>boardCreation22
+19:53:46  INFO  tests.TestBase - Test boradcreation 2TestQa32
+19:53:46  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='header-create-menu-button']
+19:53:54  INFO  manage.MyListener - The element with locator---->By.cssSelector: [data-test-id='header-create-menu-button']<---- was found
+19:53:54  INFO  manage.MyListener - The element with locator---->By.cssSelector: [aria-label='BoardIcon']
+19:53:54  INFO  manage.MyListener - The element with locator---->By.cssSelector: [aria-label='BoardIcon']<---- was found
+19:53:54  INFO  manage.MyListener - The element with locator---->By.cssSelector: input[type='text']
+19:54:04  INFO  manage.MyListener - We have a 'throwable' element---->no such element: Unable to locate element: {"method":"css selector","selector":"input[type='text']"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1036-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.IOaXfe}, goog:chromeOptions: {debuggerAddress: localhost:43147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b6f4f2f73403544b4bff60d0e3f6f488
+*** Element info: {Using=css selector, value=input[type='text']}
+19:54:04  INFO  manage.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[type='text']"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1036-oem', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.IOaXfe}, goog:chromeOptions: {debuggerAddress: localhost:43147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b6f4f2f73403544b4bff60d0e3f6f488
+*** Element info: {Using=css selector, value=input[type='text']}
+19:54:05  INFO  tests.TestBase - ******************************************************************
